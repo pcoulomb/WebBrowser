@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:browser="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/back_menu_item"
+        android:icon="@drawable/previous_icon"
+        android:title="@string/Back_Menu_Title"
+        browser:showAsAction="always"/>
+    <item
+        android:id="@+id/forward_menu_item"
+        android:icon="@drawable/next_icon"
+        android:title="@string/Back_Menu_Title"
+        browser:showAsAction="always"/>
+    <item
+        android:id="@+id/new_menu_item"
+        android:icon="@drawable/add_con"
+        android:title="@string/Back_Menu_Title"
+        browser:showAsAction="always"/>
+</menu>
